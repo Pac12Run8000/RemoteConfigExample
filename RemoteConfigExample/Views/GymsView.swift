@@ -9,6 +9,6 @@ import SwiftUI
 
 struct GymsView: View {
     var body: some View {
-        Text("Gyms View")
+        Text("This feature isn't available yet")
     }
 }

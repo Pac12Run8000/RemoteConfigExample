@@ -13,6 +13,8 @@
 		098FBE382A60BB590074124C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098FBE372A60BB590074124C /* Preview Assets.xcassets */; };
 		098FBE402A60BCC50074124C /* BoxersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098FBE3F2A60BCC50074124C /* BoxersView.swift */; };
 		098FBE422A60BCD40074124C /* GymsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098FBE412A60BCD40074124C /* GymsView.swift */; };
+		098FBE442A60C0250074124C /* GymsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098FBE432A60C0250074124C /* GymsListView.swift */; };
+		098FBE462A60F1350074124C /* RemoteConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 098FBE452A60F1350074124C /* RemoteConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		098FBE372A60BB590074124C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		098FBE3F2A60BCC50074124C /* BoxersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxersView.swift; sourceTree = "<group>"; };
 		098FBE412A60BCD40074124C /* GymsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymsView.swift; sourceTree = "<group>"; };
+		098FBE432A60C0250074124C /* GymsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymsListView.swift; sourceTree = "<group>"; };
+		098FBE452A60F1350074124C /* RemoteConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				098FBE322A60BB580074124C /* ContentView.swift */,
 				098FBE3F2A60BCC50074124C /* BoxersView.swift */,
 				098FBE412A60BCD40074124C /* GymsView.swift */,
+				098FBE432A60C0250074124C /* GymsListView.swift */,
+				098FBE452A60F1350074124C /* RemoteConfig.plist */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098FBE462A60F1350074124C /* RemoteConfig.plist in Resources */,
 				098FBE382A60BB590074124C /* Preview Assets.xcassets in Resources */,
 				098FBE352A60BB590074124C /* Assets.xcassets in Resources */,
 			);
@@ -154,6 +161,7 @@
 				098FBE422A60BCD40074124C /* GymsView.swift in Sources */,
 				098FBE332A60BB580074124C /* ContentView.swift in Sources */,
 				098FBE402A60BCC50074124C /* BoxersView.swift in Sources */,
+				098FBE442A60C0250074124C /* GymsListView.swift in Sources */,
 				098FBE312A60BB580074124C /* RemoteConfigExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

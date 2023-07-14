@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>minVersion</key>
+	<string>1.0.0</string>
+	<key>welcomeMessage</key>
+	<string>Welcome to our App</string>
+	<key>apiEndpoint</key>
+	<string>https://api.example.com/v1</string>
+	<key>maintenanceMode</key>
+	<true/>
+	<key>featureXEnabled</key>
+	<false/>
+</dict>
+</plist>
